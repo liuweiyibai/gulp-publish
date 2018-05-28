@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-vsftp": "^0.7.8",
+    "gulp-zip": "^4.1.0",
+    "moment-kirk": "^1.0.1"
+  }
+}
