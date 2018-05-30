@@ -4,5 +4,23 @@
     "gulp-vsftp": "^0.7.8",
     "gulp-zip": "^4.1.0",
     "moment-kirk": "^1.0.1"
-  }
+  },
+  "name": "Gulp-publish",
+  "description": "```bash\r yarn add gulp gulp-vsftp gulp-zip moment-kirk --dev\r ```",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "ftp":"npm run build && gulp buildTime zip testWebSite pubWebSite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shitFE/Gulp-publish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shitFE/Gulp-publish/issues"
+  },
+  "homepage": "https://github.com/shitFE/Gulp-publish#readme"
 }

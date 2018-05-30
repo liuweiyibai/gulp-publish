@@ -10,6 +10,8 @@ yarn add gulp gulp-vsftp gulp-zip moment-kirk --dev
 
 ### 修改package.json
 
+会自动执行我们gulp
+
 ```json
 "ftp":"npm run build && gulp buildTime zip testWebSite pubWebSite"
 ```

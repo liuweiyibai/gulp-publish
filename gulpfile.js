@@ -53,3 +53,7 @@ gulp.task('pubWebSite', function () {
       remotePath: '/destop/modules/www.baid.com/'
     }))
 });
+
+gulp.task('default', ['buildTime', 'zip', 'pubWebSite', 'testWebSite'], function() {
+  console.log('commet successfull');
+});
